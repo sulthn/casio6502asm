@@ -1,0 +1,1000 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c3897/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c3897.dir/build.make CMakeFiles/cmTC_c3897.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c3897.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c3897.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/ccfv1VbS.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c3897.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o /tmp/ccfv1VbS.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_c3897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3897.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o -o cmTC_c3897 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3897' '-dumpdir' 'cmTC_c3897.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYPX3AM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_c3897 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_c3897.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c3897.dir/build.make:99: cmTC_c3897] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c3897/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f901b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f901b.dir/build.make CMakeFiles/cmTC_f901b.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f901b.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_f901b.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f901b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f901b.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_f901b.dir/testCCompiler.c.o -o cmTC_f901b 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f901b.dir/build.make:99: cmTC_f901b] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f901b/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5503/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5503.dir/build.make CMakeFiles/cmTC_c5503.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c5503.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c5503.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/cc9Sokpu.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c5503.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o /tmp/cc9Sokpu.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_c5503
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5503.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o -o cmTC_c5503 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c5503' '-dumpdir' 'cmTC_c5503.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5uIqJL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_c5503 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_c5503.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c5503.dir/build.make:99: cmTC_c5503] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c5503/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73be0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73be0.dir/build.make CMakeFiles/cmTC_73be0.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73be0.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_73be0.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_73be0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73be0.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_73be0.dir/testCCompiler.c.o -o cmTC_73be0 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_73be0.dir/build.make:99: cmTC_73be0] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_73be0/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7612/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7612.dir/build.make CMakeFiles/cmTC_f7612.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f7612.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f7612.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/ccg77TAj.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f7612.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o /tmp/ccg77TAj.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_f7612
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7612.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o -o cmTC_f7612 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7612' '-dumpdir' 'cmTC_f7612.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cclwDdAl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_f7612 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_f7612.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f7612.dir/build.make:99: cmTC_f7612] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f7612/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f84e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f84e2.dir/build.make CMakeFiles/cmTC_f84e2.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f84e2.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_f84e2.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f84e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f84e2.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_f84e2.dir/testCCompiler.c.o -o cmTC_f84e2 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f84e2.dir/build.make:99: cmTC_f84e2] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f84e2/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02bc1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02bc1.dir/build.make CMakeFiles/cmTC_02bc1.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_02bc1.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_02bc1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/cck4Y57Y.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_02bc1.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o /tmp/cck4Y57Y.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_02bc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02bc1.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o -o cmTC_02bc1 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02bc1' '-dumpdir' 'cmTC_02bc1.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxrYM6E.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_02bc1 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_02bc1.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_02bc1.dir/build.make:99: cmTC_02bc1] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_02bc1/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4cae5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4cae5.dir/build.make CMakeFiles/cmTC_4cae5.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cae5.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_4cae5.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4cae5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cae5.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_4cae5.dir/testCCompiler.c.o -o cmTC_4cae5 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_4cae5.dir/build.make:99: cmTC_4cae5] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4cae5/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ffc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ffc3.dir/build.make CMakeFiles/cmTC_6ffc3.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_6ffc3.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6ffc3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/cciK0FDE.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_6ffc3.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o /tmp/cciK0FDE.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_6ffc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ffc3.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o -o cmTC_6ffc3 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ffc3' '-dumpdir' 'cmTC_6ffc3.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccn16s9o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_6ffc3 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_6ffc3.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_6ffc3.dir/build.make:99: cmTC_6ffc3] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6ffc3/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57edf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57edf.dir/build.make CMakeFiles/cmTC_57edf.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57edf.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_57edf.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_57edf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57edf.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_57edf.dir/testCCompiler.c.o -o cmTC_57edf 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_57edf.dir/build.make:99: cmTC_57edf] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_57edf/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46a21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46a21.dir/build.make CMakeFiles/cmTC_46a21.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_46a21.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_46a21.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/ccLKCjot.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_46a21.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o /tmp/ccLKCjot.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_46a21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a21.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o -o cmTC_46a21 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46a21' '-dumpdir' 'cmTC_46a21.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxj036m.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_46a21 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_46a21.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_46a21.dir/build.make:99: cmTC_46a21] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_46a21/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3968/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3968.dir/build.make CMakeFiles/cmTC_b3968.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3968.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_b3968.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b3968
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3968.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_b3968.dir/testCCompiler.c.o -o cmTC_b3968 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b3968.dir/build.make:99: cmTC_b3968] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b3968/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50b93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50b93.dir/build.make CMakeFiles/cmTC_50b93.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_50b93.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_50b93.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/ccRyqbda.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_50b93.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o /tmp/ccRyqbda.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_50b93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50b93.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o -o cmTC_50b93 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50b93' '-dumpdir' 'cmTC_50b93.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPIUD5T.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_50b93 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_50b93.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_50b93.dir/build.make:99: cmTC_50b93] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_50b93/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_552cb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_552cb.dir/build.make CMakeFiles/cmTC_552cb.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_552cb.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_552cb.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_552cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552cb.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_552cb.dir/testCCompiler.c.o -o cmTC_552cb 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_552cb.dir/build.make:99: cmTC_552cb] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_552cb/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/sulthan/.local/bin/sh-elf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_217bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_217bc.dir/build.make CMakeFiles/cmTC_217bc.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o
+/home/sulthan/.local/bin/sh-elf-gcc   -v -o CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_217bc.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_217bc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -version -o /tmp/cc0uK1ki.s
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/include-fixed
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/include
+End of search list.
+GNU C17 (GCC) version 11.1.0 (sh3eb-elf)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3086cb6551db0ee906b51b9bc9f5bf1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_217bc.dir/'
+ /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/as -big -o CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o /tmp/cc0uK1ki.s
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_217bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_217bc.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc  -v CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o -o cmTC_217bc 
+Using built-in specs.
+COLLECT_GCC=/home/sulthan/.local/bin/sh-elf-gcc
+COLLECT_LTO_WRAPPER=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper
+Target: sh3eb-elf
+Configured with: ../gcc-11.1.0/configure --prefix=/home/sulthan/.local/share/fxsdk/sysroot --target=sh3eb-elf --with-multilib-list=m3,m4-nofpu --enable-languages=c,c++ --without-headers --program-prefix=sh-elf- --enable-libssp --enable-lto --enable-clocale=generic --enable-libstdcxx-allocator --disable-threads --disable-libstdcxx-verbose --enable-cxx-flags=-fno-exceptions
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.1.0 (GCC) 
+COMPILER_PATH=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/
+LIBRARY_PATH=/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/:/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_217bc' '-dumpdir' 'cmTC_217bc.'
+ /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/collect2 -plugin /home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/liblto_plugin.so -plugin-opt=/home/sulthan/.local/share/fxsdk/sysroot/libexec/gcc/sh3eb-elf/11.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgsl4Pw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc-Os-4-200 -m shelf -o cmTC_217bc /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crti.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0 -L/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib CMakeFiles/cmTC_217bc.dir/CMakeCCompilerABI.c.o -lgcc -lgcc-Os-4-200 -lc -lgcc -lgcc-Os-4-200 /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtend.o /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtn.o
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_217bc.dir/build.make:99: cmTC_217bc] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_217bc/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37e53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37e53.dir/build.make CMakeFiles/cmTC_37e53.dir/build
+gmake[1]: Entering directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37e53.dir/testCCompiler.c.o
+/home/sulthan/.local/bin/sh-elf-gcc    -o CMakeFiles/cmTC_37e53.dir/testCCompiler.c.o -c /home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_37e53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37e53.dir/link.txt --verbose=1
+/home/sulthan/.local/bin/sh-elf-gcc CMakeFiles/cmTC_37e53.dir/testCCompiler.c.o -o cmTC_37e53 
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(dso.c.obj):(.data+0x0): multiple definition of `___dso_handle'; /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crtbegin.o:(.data+0x0): first defined here
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/crt1.o: in function `main_k':
+(.text+0x5c): undefined reference to `___setup_argv_and_call_main'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(exit.c.obj): in function `_exit':
+exit.c:(.text+0x18): undefined reference to `__Exit'
+/home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/bin/ld: /home/sulthan/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/11.1.0/../../../../sh3eb-elf/lib/libc.a(malloc.c.obj): in function `_malloc':
+malloc.c:(.text+0x18): undefined reference to `_kmalloc'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_37e53.dir/build.make:99: cmTC_37e53] Error 1
+gmake[1]: Leaving directory '/home/sulthan/6502ASM/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_37e53/fast] Error 2
+
+
+
